@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background: #1C8EF9 !important; */
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  /* font-family: 'Fira Sans', sans-serif; */
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  /* font-family: 'Fira Sans', sans-serif; */
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.main {
+  margin-top: 90px;
+}
+
+.auth-card {
+  max-width: 400px;
+  margin: auto;
+}
+
+.card-body h3 {
+  margin-bottom: 30px;
+}
+
+.card-header .form-control {
+  display: inline-block;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card-header .new-post {
+  margin-left: 20px;
+}
+
+.post-title {
+  font-size: 18px;
+}
+
+.mic-info {
+  font-size: 14px;
+  color: #333;
+}
+
+
+.btn-vote {
+  color: #9e9e9e;
+}
+
+.btn-vote.active {
+  color: #000000;
+}
+
+.btn-xs {
+  padding: 3px 7px;
+  margin-left: 2px;
+}
+
+.tags {
+  margin: 10px 0;
+}
+.tags .tag {
+  background: #28a745;
+  color: #fff;
+  display: inline-block;
+  padding: 1px 15px 3px 15px;
+  margin-right: 4px;
+  border-radius: 15px;
+  font-weight: normal;
+  cursor: pointer !important;
+}
+
+.tags .tag:hover {
+  background: #7bbd8a;
+}
+
+.tag-input {
+  margin: 10px 0;
+}
+
+.tag-input input {
+  margin-top: 10px;
+}
+
+.tag-input .tag {
+  background: #cccccc;
+  display: inline-block;
+  padding: 1px 15px 3px 15px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-weight: normal;
+}
+
+
+
